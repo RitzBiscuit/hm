@@ -1,0 +1,149 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+    body, html {
+      height: 100%; 
+      margin: 0;
+      font: 400 15px/1.8 "Lato", sans-serif;
+      color: #777; 
+    }
+    
+    .img1, .img2{
+      position: relative;
+      opacity: 0.90;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .img1 {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/166/802/non_2x/contact-me-icon-vectors.png");
+      min-height: 800px;
+    }
+    .img2 {
+      background-image: url("https://cdn.pixabay.com/photo/2017/12/28/15/06/background-3045402_1280.png");
+      min-height: 5px;
+    }
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      border: none;
+    }
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: #111;
+      text-align: center;
+    }
+    nav{padding: 13px;
+        height: 59px;
+    }
+    a{
+      color: rgb(185, 71, 26);
+      text-decoration: none; 
+
+    }
+    .active{
+      text-align: center;
+      width: 150px;
+      background-color: rgb(192, 192, 192) !important;
+      border: 10px rgb(142, 146, 150) !important;
+      color: rgb(0, 0, 0) !important;
+    }
+    .nactive{
+      text-align: center;
+      background-color: rgb(228, 228, 228) !important;
+      border: 10px rgb(158, 162, 165) !important;
+      color: rgb(78, 75, 75) !important;
+      width: 130px;
+    }
+    p{
+        font-size: 16px;
+    }
+    form{
+        width: 700px;
+        height: 325px;
+        background-color: rgba(34, 30, 30, 0.5);
+        box-shadow: 0px 0px 20px rgb(185, 71, 26);
+        padding: 20px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        }
+    #email,#password,#login{
+        width: 325px;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid rgb(185, 71, 26);
+    }
+    #message{
+        width: 654px;
+        height: 90px;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid rgb(185, 71, 26);
+    }
+    #login{
+        background-color: rgb(185, 71, 26);
+        border: 10px outset rgb(218, 79, 25);
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 18px;
+        font-weight: bold;                 
+    }
+    #login:hover{
+      transform: scale(1.01);
+    }
+    #login:active{
+        background-color: royalblue;
+    }
+    div{
+        border-top: 1px solid rgba(0,0,0,0.6);
+    }
+    </style>
+    </head>
+    <body>
+      <ul class="nav bg-light justify-content-center nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link nactive" href="Portfolio Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nactive" href="Portfolio About Me.html">About_Me</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link nactive" href="Portfolio Fav.html">My_Fav</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nactive" href="Portfolio Dreams.html">My_Dreams</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" href="Portfolio Contact Me.html">Contact_Me</a>
+        </li> 
+    </ul>
+    
+    <div class="img1">
+    </div>
+    <div class="img2">
+    </div>
+     
+    <div style="color: rgb(36, 33, 33);background-color:rgb(255, 255, 255);text-align:center;padding:50px 80px;text-align: justify;height: 360px;">
+        <h3>Contact Me</h3><br><br>
+        <p style="font-size: 20px; text-align: center;">Hello. If you would like to see more content like this please email me and suggest what I should make next!</p><br><br>
+        <form action="Portfolio Home.html" target="_blank">
+            <input type="email" name="" id="email" placeholder=" Your email address" required target="_blank">
+            <input type="text" name="" id="password" placeholder="Phone number" minlength="8" required target="_blank"><br><br>
+            <input type="text" name="" id="message" placeholder="Your Message" required target="_blank"><br><br>
+            <input type="submit" value="SEND!" name="" id="login" target="_blank"><br><br>
+        </form><br><br><br>
+    </div>
+    <br><br>
+    </body>
+</html>
